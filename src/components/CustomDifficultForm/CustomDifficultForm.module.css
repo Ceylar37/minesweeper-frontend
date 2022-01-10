@@ -1,0 +1,16 @@
+.inpField {
+    width: 120px;
+    height: 30px;
+    outline: none;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.message {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
