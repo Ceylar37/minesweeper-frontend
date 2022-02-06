@@ -4,7 +4,6 @@ import {ILoginFormData} from "../models/Forms";
 import {makeAutoObservable} from "mobx";
 import {gameManager} from "./game-manager";
 import {message} from "antd";
-import styles from "../components/CustomDifficultForm/CustomDifficultForm.module.css";
 
 class Auth {
 

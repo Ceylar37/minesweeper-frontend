@@ -2,7 +2,6 @@ import React, {createContext} from 'react';
 import ReactDOM from 'react-dom';
 import {App} from './App';
 import {BrowserRouter} from "react-router-dom";
-import './index.css'
 import {auth} from "./store/auth";
 import {gameField} from "./store/game-field";
 import {gameManager} from "./store/game-manager";

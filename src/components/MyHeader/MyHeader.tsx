@@ -50,7 +50,7 @@ const MyHeader = observer(() => {
                 <Col>
                     <Row align={'middle'}>
                         <Col>
-                                <span style={{color: 'white', fontSize: "large"}}>
+                                <span style={{color: 'white', fontSize: "large", marginRight: 20}}>
                                     {auth.user?.login}
                                 </span>
                         </Col>
