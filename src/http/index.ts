@@ -1,7 +1,7 @@
 import axios from "axios";
 import {IAuthResponse} from "../models/Responses/Auth";
 
-export const API_URL = 'https://minesweeper-backend-postgres.herokuapp.com/'
+export const API_URL = process.env.REACT_APP_MY_API_KEY
 
 export const api = axios.create({
     withCredentials: true,

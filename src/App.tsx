@@ -33,7 +33,7 @@ export const App = observer(() => {
             </Layout>
         )
     }
-    debugger
+
     return (
         <Layout style={{minWidth: '100vw', minHeight: '100vh'}}>
             <Switch>
